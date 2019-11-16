@@ -6,17 +6,27 @@
 
 .container{
     margin: 0 auto;
-    width: 80%;
+	width: 80%;
+	/* position: fixed; */
 }
 header{
-	background-color: lightblue;
+	background-color: black;
     height: 10vh;
     width: 80%;
-    position: fixed;
+	position: fixed;
+	/* overflow: hidden;
+	list-style-type: none; */
 }
 header>h1{
     float: left;
-    padding: 25px;
+	padding: 25px;
+	color: skyblue;
+
+}
+header>h1:hover{
+    float: left;
+	padding: 25px;
+	color: silver;
 
 }
 #ul{
@@ -32,7 +42,7 @@ header>h1{
  
 }
 #ul>li>a{
-
+	color: skyblue;
     text-decoration: none;
 }
 #ul>li>a:hover{
@@ -41,11 +51,46 @@ header>h1{
 
 /* about section */
 
-#bar{
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    height: 802px;
+.about{
+    background-image: url(../img/zurag2.jpg);
+	background-size: cover;
+	background-position: center;
+    min-height: 888px;
 }
+#main{
+	position: relative;
+	top: 15vh;
+	padding: 50px;
+	top: 17vh;
+	
+}
+
+#about-img{
+	width: 400px;
+    height: 400px;
+    background: url(../img/work2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    shape-outside: circle();
+}
+
+#main>h2{
+position: relative;
+top: 26px;
+left: 9%;
+}
+#main>p{
+	line-height: 31px;
+}
+
+/* scroll margin */
+/* #info{
+	margin-bottom: 200px;
+} */
+
 
 /* #bar hr{
 	position: absolute;
@@ -57,14 +102,14 @@ header>h1{
     
 } */
 
-#bar p{
+/* .class>p{
 	position: absolute;
     color: white;
     width: 50%;
     top: 54%;
     left: 39%;
 }
-#bar button{
+.class>button{
 	position: absolute;
     color: white;
     width: 6%;
@@ -72,15 +117,15 @@ header>h1{
     top: 65%;
     left: 46%;
 
-}
-#bar i{
+} */
+/* .class>i{
     position: absolute;
     font-size: 51px;
     font-weight: normal;
     color: red;
     top: 79%;
     left: 48%;
-}
+} */
 
 /* portfolio section */
 
@@ -90,8 +135,9 @@ header>h1{
 	text-align: center;
 	background-color: lightgrey;
 	height: 53vh;
-
+	
 }
+
 #info .bottom {
 	 display: grid;
   	 grid-template-columns: auto auto auto;
@@ -101,6 +147,7 @@ header>h1{
  	 padding: 10px;
  	 height: 257px;
 }
+
  #info .bottom div{
  	 background-color: white;
  	 text-align: center;
@@ -114,6 +161,7 @@ header>h1{
  }
 
 /* service section */
+
 .service{
     height: 43vh;
 }
@@ -135,6 +183,10 @@ header>h1{
  	 padding: 36px;
    	 font-size: 0px;
  }
+ /* .photo1:hover{
+	color: grey;
+	border-radius: 20%;
+} */
 
 /* contact section */
 
@@ -150,33 +202,28 @@ header>h1{
 	border-color: white;
 	display: block;
 }
-#contact form input, textarea{
+#contact form input,textarea {
 	background-color: transparent;
 	border-radius: 2px;
 	border: 1px solid #f6f9f9;
-	color: #fff;
+	color:black;
 	display: block;
 	font-size: 16px;
 	margin: 10px auto;
 	padding: 10px;
 	width: 30%;
 }
+
 #contact form span{
-	font-size: 16px;
+	font-size: 19px;
 	display: block;
 }
 #contact form button{
 	font-size: 36px;
-	border-radius: 0px;
-	/*color: lightblue;*/
 	background-color: transparent;
-    border-color: white
+    border-color: white;
 }
-#contact h1 p form{
-	margin: 0px;
-	padding: 0px;
-	height: 0px;
-}
+
 
 /* footer section */
 
