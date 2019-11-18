@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     });
 
-    $("#service").click(function(){
+    $("#project").click(function(){
         $("html, body").animate({scrollTop: text.top}, 1000);
         return false;
 
