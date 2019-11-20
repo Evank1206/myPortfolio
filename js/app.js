@@ -1,10 +1,10 @@
 $(document).ready(function(){
     // var scrollTop = $(".scrolltop");
 
-    var main = $(".main").position();
+    var main = $(".about").position();
     var top = $(".top").position();
-    var text = $(".text").position();
-    var cont = $(".cont").position();
+    var text = $(".project").position();
+    var cont = $(".contact").position();
 
     $("#about").click(function(){
 

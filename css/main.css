@@ -9,22 +9,22 @@
 	width: 80%;
 	/* position: fixed; */
 }
-header{
+.container>header{
 	background-color:lightslategray;
     height: 10vh;
-    width: 80%;
+    width: 79%;
 	position: fixed;
 	z-index:100;
 	/* overflow: hidden;
 	list-style-type: none; */
 }
-header>h1{
+.container>header>h1{
     float: left;
 	padding: 25px;
 	color: skyblue;
 
 }
-header>h1:hover{
+.container>header>h1:hover{
     float: left;
 	padding: 25px;
 	color: silver;
@@ -96,7 +96,7 @@ left: 9%;
 	position: relative;
 	text-align: center;
 	background-color: lightgrey;
-	min-height: 55vh;
+	min-height: 63vh;
 	
 }
 
@@ -112,7 +112,7 @@ left: 9%;
 #click-btn{
 	font-size: 25px;
 	position: relative;
-	top: 68px;
+	top: 109px;
 }
 
 #click-btn>a{
@@ -146,23 +146,28 @@ left: 9%;
 
 .project{
 	margin: 0px;
-	background-color:green;
-	min-height: 700px;
+	min-height: 792px;
+	position: relative;
+	top:10px
 }
 
  .text{
-	margin-top: 90px;
+
 	text-align: center;
-	
+ }
+ .text>p{
+	 position: relative;
+	 top: 43px;
  }
  #items {
-    top: 29px;
-    border: solid blue;
+	position: relative;
+    top: 55px;
     min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    justify-content: space-around;
+	justify-content: space-around;
+	
 }
 #img{
 	padding:7px;
@@ -203,21 +208,20 @@ left: 9%;
 
 /* contact section */
 
- #contact{
+ .contact{
  	position: relative;
-	 /* background-color: lightgrey; */
-	 background-color: orange;
- 	top:401px;
- 	height: 45vh;
+	background-color: lightgrey;
+ 	top:40px;
+ 	min-height: 47vh;
  	text-align: center;
  }
-#contact form{
+.contact form{
 	position: relative;
 	border-color: white;
 	display: block;
 }
 
-#contact form input,textarea {
+.contact form input,textarea {
 	background-color: transparent;
 	border-radius: 2px;
 	border: 1px solid #f6f9f9;
@@ -229,12 +233,12 @@ left: 9%;
 	width: 30%;
 }
 
-#contact form span{
+.contact form span{
 	font-size: 19px;
 	display: block;
 	
 }
-#contact form button{
+.contact form button{
 	font-size: 36px;
 	background-color: transparent;
     border-color: white;
@@ -246,8 +250,8 @@ left: 9%;
 footer{
 	background-color: lightblue;
 	position: relative;
-	top: 384px;
-    height: 100px;
+	top: 40px;
+    min-height: 100px;
     text-align: center;
     	
 }
