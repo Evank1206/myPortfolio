@@ -9,22 +9,23 @@
 	width: 80%;
 	/* position: fixed; */
 }
-.container>header{
+header{
 	background-color:lightslategray;
     height: 10vh;
-    width: 79%;
+    width: 78.5%;
 	position: fixed;
-	z-index:100;
-	/* overflow: hidden;
-	list-style-type: none; */
+	z-index:1000;
+	margin:0 auto;
+
+
 }
-.container>header>h1{
+header>h1{
     float: left;
-	padding: 25px;
+	padding: 7px;
 	color: skyblue;
 
 }
-.container>header>h1:hover{
+header>h1:hover{
     float: left;
 	padding: 25px;
 	color: silver;
