@@ -117,6 +117,7 @@ left: 9%;
 	font-size: 25px;
 	position: relative;
 	top: 73px;
+	background-color:green;
 }
 
 #click-btn>a{
@@ -248,7 +249,6 @@ left: 9%;
     border-color: white;
 }
 
-
 /* footer section */
 
 footer{
@@ -351,7 +351,9 @@ footer p:hover{
 	}
 
 	#info .bottom div{
-		background-color:green;
+		/* background-image: url(../img/bookimg3.jpg);
+		background-poition:center; */
+		background-color: lightgreen;
 		padding: 10px;
 		font-size: 21px;
 	}
@@ -421,5 +423,3 @@ footer p:hover{
 		top: 16px;
 	}
 }
-
-/* need to fix header to humburger menu 612 px lower fix layouts for header, portfolio click button, contact send button,  about- img for full-size for right& left  */
