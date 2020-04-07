@@ -1,28 +1,28 @@
-$(document).ready(function(){
+$(document).ready(function () {
     // days for week
     let day;
-    switch(new Date().getDay()){
+    switch (new Date().getDay()) {
         case 0:
-        day = "Sunday";
-        break;
+            day = "Sunday";
+            break;
         case 1:
-        day = "Monday";
-        break;
+            day = "Monday";
+            break;
         case 2:
-        day = "Tuesday";
-        break;
+            day = "Tuesday";
+            break;
         case 3:
-        day = "Wednesday";
-        break;
+            day = "Wednesday";
+            break;
         case 4:
-        day = "Thursday";
-        break;
+            day = "Thursday";
+            break;
         case 5:
-        day = "Friday";
-        break;
+            day = "Friday";
+            break;
         case 6:
-        day = "Saturday";
-        break;
+            day = "Saturday";
+            break;
 
     }
     // DOM
@@ -37,44 +37,44 @@ $(document).ready(function(){
     var text = $(".project").position();
     var cont = $(".contact").position();
 
-    $("#about").click(function(){
+    $("#about").click(function () {
 
-        $("html, body").animate({scrollTop: main.top}, 1000);
+        $("html, body").animate({ scrollTop: main.top }, 1000);
 
-            return false;
+        return false;
     });
 
-    $("#portfolio").click(function(){
-        $("html, body").animate({scrollTop: top.top}, 1000);
+    $("#portfolio").click(function () {
+        $("html, body").animate({ scrollTop: top.top }, 1000);
         return false;
 
     });
 
-    $("#project").click(function(){
-        $("html, body").animate({scrollTop: text.top}, 1000);
+    $("#project").click(function () {
+        $("html, body").animate({ scrollTop: text.top }, 1000);
         return false;
 
     });
-    
-    $("#contac").click(function(){
-        $("html, body").animate({scrollTop: cont.top}, 1000);
+
+    $("#contac").click(function () {
+        $("html, body").animate({ scrollTop: cont.top }, 1000);
         return false;
     })
 
 
-    });
+});
 
-    function myFunction(){
-      document.getElementById("submit-btn").innerHTML = "Loading";
+function myFunction() {
+    document.getElementById("submit-btn").innerHTML = "Loading";
 }
 
 
-function onmouseover(){
+function onmouseover() {
     var time = document.getElementById("time");
     time.innerHTML = date();
 }
- 
- 
 
 
-  
+
+
+

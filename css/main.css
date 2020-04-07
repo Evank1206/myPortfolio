@@ -16,8 +16,6 @@ header{
 	position: fixed;
 	z-index:1000;
 	margin:0 auto;
-
-
 }
 header>h1{
 	text-decoration: none;
@@ -124,7 +122,7 @@ left: 9%;
 	text-decoration: none;
 }
 
-#info .bottom {
+#info .button {
 	 display: grid;
   	 grid-template-columns: auto auto auto;
  	 grid-row-gap: 5px;
@@ -132,17 +130,16 @@ left: 9%;
  	 background-color:rgb(91, 91, 128);
  	 padding: 10px;
 	min-height: 257px;
-
 }
 
- #info .bottom div{
+ #info .button div{
  	 background-color: white;
  	 text-align: center;
  	 padding: 20px;
  	 font-size: 13px;
  }
 
- #info .bottom button{
+ #info .button button{
  	font-size: 66px;
  	background-color: lightblue;
  }
@@ -157,7 +154,6 @@ left: 9%;
 }
 
  .text{
-
 	text-align: center;
  }
  .text>p{
@@ -284,13 +280,13 @@ footer p:hover{
 		border: 1px solid #277a7a;
 		width: 60%;
 		}
-		#info .bottom div{
+		#info .button div{
 			background-color: rgb(41, 91, 110);
 			text-align: center;
 			padding: 6px;
 			font-size: 19px;
 	   }
-	   #info .bottom {
+	   #info .button {
 		 grid-row-gap: 5px;
 		 grid-column-gap: 55px;
 		 padding: 6px;
@@ -315,13 +311,13 @@ footer p:hover{
 			
 		}
 		/* portfolio */
-		#info .bottom div{
+		#info .button div{
 			background-color: grey;
 			/* text-align: center; */
 			padding: 3px;
 			font-size: 19px;
 	   }
-	   #info .bottom {
+	   #info .button {
 		 grid-row-gap: 3px;
 		 grid-column-gap: 35px;
 		 padding: 3px;
@@ -344,20 +340,18 @@ footer p:hover{
 	}
 
 	/* portfolio */
-	#info .bottom {
+	#info .button {
 		display: block;
-		min-height: 257px;
-	
+		min-height: 257px;	
 	}
 
-	#info .bottom div{
-		/* background-image: url(../img/bookimg3.jpg);
-		background-poition:center; */
-		background-color: lightgreen;
+	#info .button div{
+
+/* background-color: lightgreen; */
 		padding: 10px;
 		font-size: 21px;
 	}
-	#info .bottom {
+	#info .button {
 		padding: 9px;
 	}
 }
@@ -413,10 +407,11 @@ footer p:hover{
 		border: 1px solid #005f5f;
 		width: 70%;
 		}
-	#info .bottom div{
+	/* #info .button div{
 		background-color: yellowgreen;
 		font-size: 19px;
-	}
+	} */
+
 	/* portfolio */
 	#click-btn{
 		font-size: 21px;
